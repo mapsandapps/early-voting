@@ -531,8 +531,8 @@ function parseTimes(location) {
   delete location.times;
 }
 
-exports.parseLocation = parseLocation;
 exports.getDatesBetween = getDatesBetween;
+exports.parseLocation = parseLocation;
 exports.findZip = findZip;
 exports.findCity = findCity;
 exports.mergeWithKnownData = mergeWithKnownData;
